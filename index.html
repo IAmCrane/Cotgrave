@@ -11,6 +11,17 @@
 </head>
 <body>
   <header>
+    <nav>
+  <label for="cotgrave-menu">Explore Cotgrave:</label>
+  <select id="cotgrave-menu" onchange="if (this.value) window.location.href=this.value;">
+    <option value="" disabled selected>Select a category...</option>
+    <option value="Churches.html">Churches</option>
+    <option value="Grocery-Stores.html">Grocery Stores</option>
+    <option value="Library.html">Library</option>
+    <option value="Pubs.html">Pubs</option>
+    <option value="Community-Garden.html">Community Garden</option>
+  </select>
+</nav>
     <h1>Welcome to Cotgrave</h1>
   </header>
   <div class="content-box">
