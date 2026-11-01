@@ -5,8 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cotgrave</title>
 <style>
-    body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: center; background-color: #ebf5ff; color: #000000; padding: 20px;}
-    .content-box {border: 1px solid #ccc; padding: 20px; border-radius: 8px; margin: 15px auto; max-width: 600px; background: rgba(0,0,0,0.02);}
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+        text-align: center; 
+        background-color: #ebf5ff; 
+        color: #000000; 
+        padding: 20px;
+    }
+    .content-box {
+        border: 1px solid #ccc; 
+        padding: 20px; 
+        border-radius: 8px; 
+        margin: 15px auto; 
+        max-width: 600px; 
+        background: rgba(0,0,0,0.02);
+    }
+    /* Add this styling for your table */
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 80%; /* Adjust as needed */
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+    }
 </style>
 </head>
 <body
@@ -28,6 +51,24 @@
   <p>There are three grocery stores in Cotgrave</p>
   <div class="content-box">
     <h2>The Cotgrave Sainsbury's</h2>
+      <table> 
+          <thead>
+              <tr>
+                  <th>Days </th>
+                  <th>Hours</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Monday to Friday</td>
+                  <td>7 am to 9 pm</td>
+              </tr> 
+              <tr>
+                 <td>Sunday</td>
+                 <td>10 am to 4 pm</td>   
+              </tr>
+          </tbody>
+      </table>
     <p>Address: 3 Bingham Rd, Cotgrave, Nottingham NG12 3JS</p>
     <p>Phone: 0330 013 7056</p>
   </div>
